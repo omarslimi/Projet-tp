@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule ^connexion$ login.php
+RewriteRule ^inscription$ register.php
+RewriteRule ^accueil$ index.php
+RewriteRule ^Ajouter-une-annonce$ addPost.php

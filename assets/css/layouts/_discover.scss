@@ -1,0 +1,38 @@
+/* ===================================================================================================================================
+=============================================================PageDécouvrir============================================================
+====================================================================================================================================== */
+#asside{
+	background-color: $colorBack;
+	margin-top: 3%;
+}
+#featuredProjects{
+	margin-top: 3%;
+}
+.colorBtn{
+	background-color: $colorBtn;
+}
+/*Menu deroulant page accueil*/
+aside {
+    float: left;
+    width: 25%;
+    padding: 1%;
+	height: 40%;
+}
+.sticky {
+    position: sticky;
+   /*sert a modifier la difference de hauteur entre le menu catégorie et la navbar sur le scroll*/
+    top: 7.3vh;
+}
+//pour afficher le curseur sur les sous ctégories
+.select{
+	cursor: pointer;
+}
+#pageDiscoverBestProject{
+background-color: $firstColor ;
+}
+#btnCatResponsive{
+	background-color: $colorBtn;
+}
+.sizeOfFlag{
+    width: 3.5vh;
+}

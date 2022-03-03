@@ -1,0 +1,108 @@
+#containerAllDashboard{
+    padding-top: 3.7%;
+    background-color: #f3f6fd;
+}
+.boxAdminNumber1{
+    background-color: white;
+    border-radius: 15px;
+    height: auto;
+}
+.boxAdminNumber2{
+    background-color: white;
+    border-radius: 15px;
+    height: 20vh;
+}
+.boxAdminNumber3{
+    background-color: white;
+    border-radius: 15px;
+    height: auto;
+}
+.boxAdminNumber3UsersManagement{
+    background-color: white;
+    border-radius: 15px;
+    height: 53.7vh;
+    overflow-y: scroll;
+    position: relative;
+    &::-webkit-scrollbar {
+        width: 2px;
+    }
+    &::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+        border-radius: 20px;
+        background-color: black;
+    }
+    thead{
+        position: sticky;
+        top: 0;
+        background-color: white;
+    }
+}
+.boxAdminNumber4{
+    background-color: white;
+    border-radius: 15px;
+    height: auto;
+}
+.menusOfDashboard{
+    font-weight: 700;
+    color: #1f1c2e;
+    font-family: 'DM Sans';
+    opacity: 0.9;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+.menusOfDashboard:hover{
+    font-weight: 700;
+    color: #1f1c2e;
+    font-family: 'DM Sans';
+    opacity: 0.9;
+    cursor: pointer;
+    padding: 5px;
+    transform: scale(1.1);
+    margin-left: 0.5vw;
+}
+.menusOfDashboardActive{
+    font-weight: 700;
+    color: #1f1c2e;
+    font-family: 'DM Sans';
+    opacity: 0.9;
+    cursor: pointer;
+    padding: 5px;
+    background-color: rgba($color: #1f1c2e, $alpha: 0.3);
+    transform: scale(1.2);
+    margin-left: 1vw;
+}
+#titleDashboardWord{
+    font-weight: bold;
+    font-size: 32px;
+}
+.titleWelcomeDashboard{
+    font-size: 27px;
+}
+#iconRegister{
+    font-size: 400%;
+}
+
+#titleOfRecentProject{
+    font-weight: bold;
+    font-size: 20px;
+}
+#titleOfUsersBox{
+    font-weight: bold;
+    font-size: 20px;
+}
+.seeMoreRecentProjectBtn{
+    background-color: $colorBtn;
+}
+.seeMoreUsersBtn{
+    background-color: $colorBtn;
+}
+.seeAnnounce{
+    cursor: pointer;
+}
+.tableRadius{
+    border-radius: 7px;
+}

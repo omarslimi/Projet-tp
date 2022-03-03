@@ -1,0 +1,457 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap");
+/* ===================================================================================================================================
+=============================================================PageAccueil==============================================================
+====================================================================================================================================== */
+#pageHome {
+  background-image: url(../img/83-838362_web-developer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  padding-left: 0;
+  padding-right: 0;
+  height: 100vh;
+}
+
+/*Navbar*/
+#discoverNavbar {
+  cursor: pointer;
+}
+
+#slogan {
+  margin-top: 10%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 8vh;
+}
+
+#buttonDiscover {
+  /* display: block; */
+  background: transparent;
+  /* padding: 15px; */
+  cursor: pointer;
+  text-decoration: none;
+  width: 320px;
+  text-align: center;
+  font-size: 20px;
+  /* padding-top: 20px; */
+  font-weight: normal;
+  /* margin-top: 120px;
+	margin-left: 21%; */
+  color: white;
+  border: 1px solid #DCE0D9;
+  text-transform: uppercase;
+}
+
+#buttonDiscover:hover {
+  color: #ceb982;
+  background-color: white;
+  -webkit-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
+}
+
+#secondButton {
+  /* display: block; */
+  background: #DCE0D9;
+  /* padding: 15px; */
+  cursor: pointer;
+  text-decoration: none;
+  width: 320px;
+  text-align: center;
+  font-size: 20px;
+  /* padding-top: 20px; */
+  font-weight: normal;
+  /* margin-top: 120px; */
+  /* margin-left: 9%; */
+  color: black;
+  border: 1px solid #DCE0D9;
+  text-transform: uppercase;
+}
+
+#secondButton:hover {
+  color: #ceb982;
+  background-color: white;
+  -webkit-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
+}
+
+.navbarColor {
+  background-color: rgba(40, 45, 50, 0.8);
+}
+
+/* ===================================================================================================================================
+=============================================================PageDécouvrir============================================================
+====================================================================================================================================== */
+#asside {
+  background-color: #282d32;
+  margin-top: 3%;
+}
+
+#featuredProjects {
+  margin-top: 3%;
+}
+
+.colorBtn {
+  background-color: #143642;
+}
+
+/*Menu deroulant page accueil*/
+aside {
+  float: left;
+  width: 25%;
+  padding: 1%;
+  height: 40%;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  /*sert a modifier la difference de hauteur entre le menu catégorie et la navbar sur le scroll*/
+  top: 7.3vh;
+}
+
+.select {
+  cursor: pointer;
+}
+
+#pageDiscoverBestProject {
+  background-color: #f3f6fd;
+}
+
+#btnCatResponsive {
+  background-color: #143642;
+}
+
+.sizeOfFlag {
+  width: 3.5vh;
+}
+
+/* ===================================================================================================================================
+=============================================================Footer===================================================================
+====================================================================================================================================== */
+.footer-dark {
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #282d32;
+}
+
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-dark ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom: 36px;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .footer-dark .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+          box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+/*forms*/
+#buttonSubmitForms {
+  background-color: #143642;
+}
+
+#fontFamilyForm {
+  font-family: MV Boli;
+}
+
+#box {
+  margin-top: 150px;
+  margin-bottom: 80px;
+  height: 80%;
+  -webkit-box-shadow: 10px 10px 60px rgba(179, 175, 175, 0.4), inset 0px 0px 10px rgba(233, 232, 232, 0.4);
+          box-shadow: 10px 10px 60px rgba(179, 175, 175, 0.4), inset 0px 0px 10px rgba(233, 232, 232, 0.4);
+}
+
+.shadowLogin {
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 10px 50px -10px #d6d6d6;
+          box-shadow: 0px 10px 50px -10px #d6d6d6;
+}
+
+.shadowLogin:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.shadowLogin .labelLogin {
+  font-weight: bold;
+}
+
+.shadowRegister {
+  border-radius: 15px;
+}
+
+.shadowRegister:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.shadowRegister .labelRegister {
+  font-weight: bold;
+}
+
+#containerAllDashboard {
+  padding-top: 3.7%;
+  background-color: #f3f6fd;
+}
+
+.boxAdminNumber1 {
+  background-color: white;
+  border-radius: 15px;
+  height: auto;
+}
+
+.boxAdminNumber2 {
+  background-color: white;
+  border-radius: 15px;
+  height: 20vh;
+}
+
+.boxAdminNumber3 {
+  background-color: white;
+  border-radius: 15px;
+  height: auto;
+}
+
+.boxAdminNumber3UsersManagement {
+  background-color: white;
+  border-radius: 15px;
+  height: 53.7vh;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.boxAdminNumber3UsersManagement::-webkit-scrollbar {
+  width: 2px;
+}
+
+.boxAdminNumber3UsersManagement::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.boxAdminNumber3UsersManagement::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: black;
+}
+
+.boxAdminNumber3UsersManagement thead {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.boxAdminNumber4 {
+  background-color: white;
+  border-radius: 15px;
+  height: auto;
+}
+
+.menusOfDashboard {
+  font-weight: 700;
+  color: #1f1c2e;
+  font-family: 'DM Sans';
+  opacity: 0.9;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 7px;
+  text-decoration: none;
+}
+
+.menusOfDashboard:hover {
+  font-weight: 700;
+  color: #1f1c2e;
+  font-family: 'DM Sans';
+  opacity: 0.9;
+  cursor: pointer;
+  padding: 5px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  margin-left: 0.5vw;
+}
+
+.menusOfDashboardActive {
+  font-weight: 700;
+  color: #1f1c2e;
+  font-family: 'DM Sans';
+  opacity: 0.9;
+  cursor: pointer;
+  padding: 5px;
+  background-color: rgba(31, 28, 46, 0.3);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  margin-left: 1vw;
+}
+
+#titleDashboardWord {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.titleWelcomeDashboard {
+  font-size: 27px;
+}
+
+#iconRegister {
+  font-size: 400%;
+}
+
+#titleOfRecentProject {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#titleOfUsersBox {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.seeMoreRecentProjectBtn {
+  background-color: #143642;
+}
+
+.seeMoreUsersBtn {
+  background-color: #143642;
+}
+
+.seeAnnounce {
+  cursor: pointer;
+}
+
+.tableRadius {
+  border-radius: 7px;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+/*Fleche pour remonter*/
+#divArrow {
+  height: 100px;
+  width: 100px;
+  background: gray;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+.validated {
+  color: green;
+}
+
+.invalidated {
+  color: red;
+}
+
+#nameMyAccount {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.testicon {
+  font-size: 13rem;
+}
+
+#containerPageMyAccount {
+  margin-top: 6%;
+}
+
+#icon_user:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.boxUserInformations {
+  background-color: #f3f6fd;
+}
+
+#penDescription {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
